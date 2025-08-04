@@ -19,7 +19,7 @@ This processor supports a basic subset of the **MIPS ISA**, making it suitable f
 - ✅ **5-Stage Pipeline**: Implements IF, ID, EX, MEM, and WB stages.
 - ✅ **Hazard Detection & Forwarding**:
   - Implements **data forwarding** to resolve data hazards.
-  - Detects and handles **control hazards** for branch instructions.
+  - Detects and handles stalling.
 - ✅ **Separate Instruction and Data Memory**: Harvard architecture.
 - ✅ **MIPS Instruction Support**:
   - Arithmetic: `add`, `sub`
